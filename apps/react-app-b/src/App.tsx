@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import {PetsComponent} from '@mohannad/lib_b'
 import {PeopleComponent} from '@mohannad/lib_a'
 
 export function App() {
@@ -14,7 +13,6 @@ export function App() {
         {showNames ? 'Hide' : 'Show'} names
         </button>
       </div>
-      <PetsComponent showNames={showNames} />
       <PeopleComponent showNames={showNames} />
 
     </>

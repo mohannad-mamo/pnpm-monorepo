@@ -8,12 +8,12 @@
     "test": "vitest run",
     "build": "vite build",
     "lint": "eslint src",
-    "preview": "vite preview"
+    "dist:preview": "pnpm build && npx http-server ./dist -o",
+    "analyze-bundle": "npx vite-bundle-visualizer"
   },
   "dependencies": {
     "@mohannad/lib_a": "workspace:*",
     "@mohannad/lib_ab": "workspace:*",
-    "@mohannad/lib_b": "workspace:*",
     "react": "*",
     "react-dom": "*"
   },

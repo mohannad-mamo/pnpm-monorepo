@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 import {PetsComponent} from '@mohannad/lib_b'
-import {PeopleComponent} from '@mohannad/lib_a'
 
 export function App() {
   const [showNames, setShowNames] = useState(false)
@@ -15,8 +14,6 @@ export function App() {
         </button>
       </div>
       <PetsComponent showNames={showNames} />
-      <PeopleComponent showNames={showNames} />
-
     </>
   )
 }
