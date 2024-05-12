@@ -11,6 +11,6 @@
 - [ ] Configure Husky
 - [x] Setup `vitest` tests for packages and react apps
 - [x] Setup build scripts
-- [ ] Run tests in parallel
-- [ ] Run build in parallel
+- [x] Run tests in parallel
+- [x] Run build in parallel
 - [ ] Setup auto link for packages (currently manual)

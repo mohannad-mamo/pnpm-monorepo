@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "pnpm --filter \"./packages/**\" --filter \"./apps/**\" test",
-    "build": "pnpm --filter \"./apps/**\" build",
+    "test": "pnpm --filter \"./packages/**\" --filter \"./apps/**\" --parallel test",
+    "build": "pnpm --filter \"./apps/**\" --parallel build",
     "dev": "pnpm --filter \"./apps/**\" dev",
     "dev:app-a": "pnpm --filter react-app-a dev"
   },
