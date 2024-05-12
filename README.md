@@ -10,4 +10,4 @@
 - [x] Unify Eslint rules.
 - [ ] Configure Husky
 - [x] Setup `vitest` tests for packages and react apps
-- [ ] Setup build scripts
+- [x] Setup build scripts
