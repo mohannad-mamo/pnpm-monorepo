@@ -1,0 +1,29 @@
+{
+  "name": "react-app-a",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "@mohannad/lib_a": "workspace:*",
+    "@mohannad/lib_b": "workspace:*",
+    "@mohannad/lib_ab": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "*",
+    "@mohannad/eslint-config-custom": "workspace:*",
+    "tsconfig": "workspace:*",
+    "typescript": "*",
+    "vite": "^5.2.0"
+  }
+}
