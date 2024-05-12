@@ -1,10 +1,10 @@
 {
-  "name": "react-app-a",
+  "name": "react-app-b",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port 3001",
+    "dev": "vite --port 3002",
     "test": "vitest run",
     "build": "vite build",
     "lint": "eslint src",

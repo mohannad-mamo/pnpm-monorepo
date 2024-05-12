@@ -5,7 +5,8 @@
     "types": "./src/index.ts",
     "license": "MIT",
     "scripts": {
-        "lint": "eslint ."
+        "lint": "eslint .",
+        "test": "vitest run"
     },
     "devDependencies": {
         "tsconfig": "workspace:*",
