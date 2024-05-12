@@ -62,9 +62,6 @@ importers:
 
   apps/react-app-a:
     dependencies:
-      '@mohannad/lib_a':
-        specifier: workspace:*
-        version: link:../../packages/lib_a
       '@mohannad/lib_ab':
         specifier: workspace:*
         version: link:../../packages/lib_ab
@@ -117,9 +114,6 @@ importers:
       '@mohannad/lib_ab':
         specifier: workspace:*
         version: link:../../packages/lib_ab
-      '@mohannad/lib_b':
-        specifier: workspace:*
-        version: link:../../packages/lib_b
       react:
         specifier: '*'
         version: 18.3.1
